@@ -76,4 +76,10 @@ export const ms = {
     zhCN: "简体中文",
     ms: "Bahasa Melayu",
   },
+  demo: {
+    title: "Demo",
+    description:
+      "Panduan ringkas: tampal nama, cari rating, eksport ke Excel.",
+    iframeTitle: "Video demo aplikasi",
+  },
 } satisfies Messages;

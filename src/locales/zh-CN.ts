@@ -74,4 +74,9 @@ export const zhCN = {
     zhCN: "简体中文",
     ms: "Bahasa Melayu",
   },
+  demo: {
+    title: "演示",
+    description: "简短演示：粘贴姓名、查询等级分、导出 Excel。",
+    iframeTitle: "应用演示视频",
+  },
 } satisfies Messages;

@@ -26,6 +26,7 @@ import {
 import type { ColumnsType } from "antd/es/table";
 import { useCallback, useMemo, useState } from "react";
 import { Controller, useForm } from "react-hook-form";
+import { DemoVideo } from "@/components/demo-video";
 import { antdLocaleByCode } from "@/i18n/antd-locale";
 import { useI18n } from "@/i18n/i18n-context";
 import type { LocaleCode } from "@/locales";
@@ -440,6 +441,7 @@ export function NameListTool() {
               </Space>
             )}
           </Card>
+          <DemoVideo />
         </main>
 
         <footer className="mt-auto shrink-0 border-t border-zinc-200/70 bg-white/70 px-4 py-8 backdrop-blur-sm sm:px-6">

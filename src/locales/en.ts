@@ -74,6 +74,11 @@ export const en = {
     zhCN: "简体中文",
     ms: "Bahasa Melayu",
   },
+  demo: {
+    title: "Demo",
+    description: "Short walkthrough: paste names, look up ratings, export to Excel.",
+    iframeTitle: "App demo video",
+  },
 } as const;
 
 type StringTree<T> = T extends string
