@@ -65,9 +65,9 @@ function normalizeVideoUrl(raw: string | undefined): string | null {
   return null;
 }
 
-const embedUrl = normalizeVideoUrl(
-  process.env.NEXT_PUBLIC_DEMO_VIDEO_EMBED_URL,
-);
+const DEMO_VIDEO_URL = "https://youtube.com/shorts/gHO5_M9b0Sg?feature=share";
+
+const embedUrl = normalizeVideoUrl(DEMO_VIDEO_URL);
 
 export function DemoVideo() {
   const { t } = useI18n();
